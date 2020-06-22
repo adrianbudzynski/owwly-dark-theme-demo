@@ -1,0 +1,23 @@
+$accent-color: #FF0000;
+$accent-color-dark: #0000FF;
+
+$toolbar-color: #EEEEEE;
+$toolbar-color-dark: #232323;
+
+$toolbar-text-color: $toolbar-color-dark;
+$toolbar-text-color-dark: $toolbar-color;
+
+$card-background: #fafafa;
+$card-background-dark: #494949;
+$card-border: #eee;
+$card-border-dark: #5c5c5c;
+
+
+$colors: (
+  --accent-color: ($accent-color, $accent-color-dark),
+  --toolbar-color: ($toolbar-color, $toolbar-color-dark),
+  --toolbar-text-color: ($toolbar-text-color, $toolbar-text-color-dark),
+  --card-background: ($card-background, $card-background-dark),
+  --card-border: ($card-border, $card-border-dark)
+)
+
